@@ -36,4 +36,4 @@ for x in file_list:
         Path(x).rename(sub_str + "/" + x)
     
 
-print("Organized", len(file_list), "into", folder_count, "folders!")
+print("Organized", len(file_list), "files into", folder_count, "folders!")
